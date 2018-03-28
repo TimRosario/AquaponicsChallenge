@@ -23,6 +23,7 @@ void setBars(int height1, int height2,int height3){
   for(int i = 8 - height3; i < 8; i++){
     arr[i] = arr[i] | B00000011;
   }
+  
   lc.setRow(0,0,arr[0]);
   lc.setRow(0,1,arr[1]);
   lc.setRow(0,2,arr[2]);
